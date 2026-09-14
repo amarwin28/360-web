@@ -1,0 +1,3100 @@
+[
+  {
+    "id": "lab-main",
+    "title": "Lab - Main Hall",
+    "desc": "Central workspace - robotics & prototyping",
+    "image": "assets/inside-view-lab.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 2,
+        "target": "lab-drone",
+        "label": "Drone View"
+      },
+      {
+        "yaw": -45,
+        "pitch": -5,
+        "target": "robotics",
+        "label": "Robotics Zone"
+      },
+      {
+        "yaw": 120,
+        "pitch": 0,
+        "target": "electronics",
+        "label": "Electronics"
+      }
+    ]
+  },
+  {
+    "id": "lab-drone",
+    "title": "Lab - Drone View",
+    "desc": "Aerial perspective of the entire STEM lab",
+    "image": "assets/lab-drone-view.png",
+    "hotspots": [
+      {
+        "yaw": -10,
+        "pitch": 0,
+        "target": "lab-main",
+        "label": "Back to Main"
+      },
+      {
+        "yaw": 60,
+        "pitch": -4,
+        "target": "iot",
+        "label": "IoT Zone"
+      },
+      {
+        "yaw": -90,
+        "pitch": 2,
+        "target": "coding",
+        "label": "Coding Zone"
+      }
+    ]
+  },
+  {
+    "id": "robotics",
+    "title": "Robotics Zone",
+    "desc": "Build Program Test",
+    "image": "assets/robotics-zone.png",
+    "hotspots": [
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "lab-main",
+        "label": "Main Hall"
+      },
+      {
+        "yaw": 40,
+        "pitch": 0,
+        "target": "innovation",
+        "label": "Innovation Lab"
+      }
+    ]
+  },
+  {
+    "id": "coding",
+    "title": "Coding Zone",
+    "desc": "Where ideas become software",
+    "image": "assets/coding-zone.png",
+    "hotspots": [
+      {
+        "yaw": 10,
+        "pitch": 0,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "electronics",
+    "title": "Electronics Zone",
+    "desc": "Circuits, Arduino, ESP32, sensors",
+    "image": "assets/electronicszone.png",
+    "hotspots": [
+      {
+        "yaw": 0,
+        "pitch": 0,
+        "target": "lab-main",
+        "label": "Main Hall"
+      },
+      {
+        "yaw": 90,
+        "pitch": 0,
+        "target": "iot",
+        "label": "IoT Zone"
+      }
+    ]
+  },
+  {
+    "id": "iot",
+    "title": "IoT Zone",
+    "desc": "Connect the physical world",
+    "image": "assets/iot-zone.png",
+    "hotspots": [
+      {
+        "yaw": 180,
+        "pitch": 0,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "innovation",
+    "title": "Innovation & Prototyping",
+    "desc": "Idea Design Build Test",
+    "image": "assets/innovation-and-protytping-zone.png",
+    "hotspots": [
+      {
+        "yaw": 20,
+        "pitch": 0,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "arduni-uno",
+    "title": "ARDUNI UNO",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/arduni-uno.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "banner",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "work-table",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "banner",
+    "title": "BANNER",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/banner.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "big-logo",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "arduni-uno",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "big-logo",
+    "title": "BIG LOGO",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/big-logo.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "brand-assests-colour-font-theme-in-webiste-destail",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "banner",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "brand-assests-colour-font-theme-in-webiste-destail",
+    "title": "BRAND ASSESTS COLOUR FONT THEME IN WEBIS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/brand-assests-colour-font-theme-in-webiste-destails.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "brand-id-card",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "big-logo",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "brand-id-card",
+    "title": "BRAND ID CARD",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/brand-id-card.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "brochure-nanos-aprk-1-week-2-week-b-v",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "brand-assests-colour-font-theme-in-webiste-destail",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "brochure-nanos-aprk-1-week-2-week-b-v",
+    "title": "BROCHURE NANOS APRK 1 WEEK 2 WEEK B V",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/brochure-nanos-aprk-1-week-2-week-b-v.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "brochure-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "brand-id-card",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "brochure-1",
+    "title": "brochure 1",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/brochure-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "brochure-2",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "brochure-nanos-aprk-1-week-2-week-b-v",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "brochure-2",
+    "title": "brochure 2",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/brochure-2.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "brochure-3",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "brochure-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "brochure-3",
+    "title": "brochure 3",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/brochure-3.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "brochure-4",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "brochure-2",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "brochure-4",
+    "title": "brochure 4",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/brochure-4.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "chatgjumper-wires-adn-bbatteries-t",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "brochure-3",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "chatgjumper-wires-adn-bbatteries-t",
+    "title": "ChatGJUMPER WIRES ADN BBATTERIES T",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/chatgjumper-wires-adn-bbatteries-t.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "class-room-teaching",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "brochure-4",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "class-room-teaching",
+    "title": "CLASS ROOM TEACHING",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/class-room-teaching.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "coding-zone",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "chatgjumper-wires-adn-bbatteries-t",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "coding-zone",
+    "title": "CODING ZONE",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/coding-zone.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "computer-coings",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "class-room-teaching",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "computer-coings",
+    "title": "COMPUTER COINGS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/computer-coings.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "demo-2-whell-bot",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "coding-zone",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "demo-2-whell-bot",
+    "title": "DEMO 2 WHELL BOT",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/demo-2-whell-bot.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "dharshan-e-coo",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "computer-coings",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "dharshan-e-coo",
+    "title": "dharshan e  COO",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/dharshan-e-coo.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "drone-view-image-for-stduents",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "demo-2-whell-bot",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "drone-view-image-for-stduents",
+    "title": "DRONE VIEW IMAGE FOR STDUENTS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/drone-view-image-for-stduents.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "electronicszone",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "dharshan-e-coo",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "electronicszone",
+    "title": "ELECTRONICSZONE",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/electronicszone.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "esp-32",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "drone-view-image-for-stduents",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "esp-32",
+    "title": "ESP 32",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/esp-32.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "extlogo",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "electronicszone",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "extlogo",
+    "title": "extlogo",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/extlogo.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "first-aid-kit-box",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "esp-32",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "first-aid-kit-box",
+    "title": "FIRST AID KIT BOX",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/first-aid-kit-box.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "founder",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "extlogo",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "founder",
+    "title": "founder",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/founder.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "innovation-and-protytping-zone",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "first-aid-kit-box",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "innovation-and-protytping-zone",
+    "title": "INNOVATION AND PROTYTPING ZONE",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/innovation-and-protytping-zone.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "inside-view-lab",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "founder",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "inside-view-lab",
+    "title": "INSIDE VIEW LAB",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/inside-view-lab.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "iot-zone",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "innovation-and-protytping-zone",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "iot-zone",
+    "title": "IOT ZONE",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/iot-zone.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "kamalesh-stem-trainer",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "inside-view-lab",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "kamalesh-stem-trainer",
+    "title": "KAMALESH STEM TRAINER",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/kamalesh-stem-trainer.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "lab-drone-view",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "iot-zone",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "lab-drone-view",
+    "title": "LAB DRONE VIEW",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/lab-drone-view.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "logo-only",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "kamalesh-stem-trainer",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "logo-only",
+    "title": "LOGO ONLY",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/logo-only.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "logo-short",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "lab-drone-view",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "logo-short",
+    "title": "LOGO SHORT",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/logo-short.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "logo",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "logo-only",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "logo",
+    "title": "logo",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/logo.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "miscllaneosu-componenets",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "logo-short",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "miscllaneosu-componenets",
+    "title": "MISCLLANEOSU COMPONENETS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/miscllaneosu-componenets.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "moahmmed-thariq-a-cmo",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "logo",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "moahmmed-thariq-a-cmo",
+    "title": "moahmmed thariq  a    CMO",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/moahmmed-thariq-a-cmo.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "msme-certificate",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "miscllaneosu-componenets",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "msme-certificate",
+    "title": "msme certificate",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/msme-certificate.jpg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "multi-colour-leds",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "moahmmed-thariq-a-cmo",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "multi-colour-leds",
+    "title": "MULTI COLOUR LEDS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/multi-colour-leds.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "multi-merter",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "msme-certificate",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "multi-merter",
+    "title": "MULTI MERTER",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/multi-merter.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "multi-sensors",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "multi-colour-leds",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "multi-sensors",
+    "title": "MULTI SENSORS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/multi-sensors.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "nano-spark-1-week-program-2-week-program-f-v",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "multi-merter",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "nano-spark-1-week-program-2-week-program-f-v",
+    "title": "NANO SPARK 1 WEEK PROGRAM 2 WEEK PROGRAM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/nano-spark-1-week-program-2-week-program-f-v.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "nano-spark-badje",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "multi-sensors",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "nano-spark-badje",
+    "title": "NANO SPARK BADJE",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/nano-spark-badje.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "nano-spark-brand-t-shirt",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "nano-spark-1-week-program-2-week-program-f-v",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "nano-spark-brand-t-shirt",
+    "title": "NANO SPARK BRAND T SHIRT",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/nano-spark-brand-t-shirt.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "ns-brand-t-shirt-white-theme",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "nano-spark-badje",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "ns-brand-t-shirt-white-theme",
+    "title": "NS BRAND T SHIRT WHITE THEME",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/ns-brand-t-shirt-white-theme.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "ns-lap-wallpapper",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "nano-spark-brand-t-shirt",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "ns-lap-wallpapper",
+    "title": "NS LAP WALLPAPPER",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/ns-lap-wallpapper.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "ns-mobbile-wallappeprr",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "ns-brand-t-shirt-white-theme",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "ns-mobbile-wallappeprr",
+    "title": "NS MOBBILE WALLAPPEPRR",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/ns-mobbile-wallappeprr.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "ns-wallaper-fro-the-mobile-lock-screen",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "ns-lap-wallpapper",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "ns-wallaper-fro-the-mobile-lock-screen",
+    "title": "NS WALLAPER FRO THE MOBILE LOCK SCREEN",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/ns-wallaper-fro-the-mobile-lock-screen.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "ns-water-bottles",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "ns-mobbile-wallappeprr",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "ns-water-bottles",
+    "title": "NS WATER BOTTLES",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/ns-water-bottles.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "ot-zone-woeoing-studnets-12-a",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "ns-wallaper-fro-the-mobile-lock-screen",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "ot-zone-woeoing-studnets-12-a",
+    "title": "OT ZONE WOEOING STUDNETS 12 a",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/ot-zone-woeoing-studnets-12-a.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "overlay-favicon",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "ns-water-bottles",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "overlay-favicon",
+    "title": "OVERLAY FAVICON",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/overlay-favicon.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "project-display-self",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "ot-zone-woeoing-studnets-12-a",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "project-display-self",
+    "title": "PROJECT DISPLAY SELF",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/project-display-self.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "robotics-zone",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "overlay-favicon",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "robotics-zone",
+    "title": "ROBOTICS ZONE",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/robotics-zone.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "safety-equipemetnst",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "project-display-self",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "safety-equipemetnst",
+    "title": "SAFETY EQUIPEMETNST",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/safety-equipemetnst.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "safety-shelf",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "robotics-zone",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "safety-shelf",
+    "title": "SAFETY SHELF",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/safety-shelf.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "screw-its-box",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "safety-equipemetnst",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "screw-its-box",
+    "title": "SCREW ITS BOX",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/screw-its-box.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "skills-they-learn-in-ns",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "safety-shelf",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "skills-they-learn-in-ns",
+    "title": "SKILLS THEY LEARN IN NS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/skills-they-learn-in-ns.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "solder-station",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "screw-its-box",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "solder-station",
+    "title": "SOLDER STATION",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/solder-station.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "startup-tn",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "skills-they-learn-in-ns",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "startup-tn",
+    "title": "startup tn",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/startup-tn.jpg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "stdunst-working",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "solder-station",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "stdunst-working",
+    "title": "STDUNST WORKING",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/stdunst-working.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "stem-lab-kit",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "startup-tn",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "stem-lab-kit",
+    "title": "stem lab kit",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/stem-lab-kit.jpg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "stem-lab",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "stdunst-working",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "stem-lab",
+    "title": "stem lab",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/stem-lab.jpg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "storage-units",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "stem-lab-kit",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "storage-units",
+    "title": "STORAGE UNITS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/storage-units.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "studnts-cod9jing",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "stem-lab",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "studnts-cod9jing",
+    "title": "STUDNTS COD9JING",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/studnts-cod9jing.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "tejasri-rs-cio",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "storage-units",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "tejasri-rs-cio",
+    "title": "TEJASRI RS CIO",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/tejasri-rs-cio.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "tolls-they-leran-as-in-hand",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "studnts-cod9jing",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "tolls-they-leran-as-in-hand",
+    "title": "TOLLS THEY LERAN AS IN HAND",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/tolls-they-leran-as-in-hand.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "tools-and-platform-sof-ns",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "tejasri-rs-cio",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "tools-and-platform-sof-ns",
+    "title": "TOOLS AND PLATFORM SOF NS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/tools-and-platform-sof-ns.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "tools-box-of-ns",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "tolls-they-leran-as-in-hand",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "tools-box-of-ns",
+    "title": "TOOLS BOX OF NS",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/tools-box-of-ns.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "v-card-b-v",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "tools-and-platform-sof-ns",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "v-card-b-v",
+    "title": "V CARD B V",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/v-card-b-v.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "vishal-s-stem-trainer",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "tools-box-of-ns",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "vishal-s-stem-trainer",
+    "title": "VISHAL S STEM TRAINER",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/vishal-s-stem-trainer.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "visiting-card-f-v",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "v-card-b-v",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "visiting-card-f-v",
+    "title": "VISITING CARD F V",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/visiting-card-f-v.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "wall-stciker",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "vishal-s-stem-trainer",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "wall-stciker",
+    "title": "WALL STCIKER",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/wall-stciker.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-44-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "visiting-card-f-v",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-44-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.44 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-44-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-44-pm-2",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "wall-stciker",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-44-pm-2",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.44 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-44-pm-2.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-44-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-44-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-44-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.44 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-44-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-45-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-44-pm-2",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-45-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.45 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-45-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-46-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-44-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-46-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.46 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-46-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-47-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-45-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-47-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.47 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-47-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-48-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-46-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-48-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.48 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-48-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-48-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-47-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-48-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.48 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-48-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-49-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-48-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-49-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.49 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-49-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-49-pm-2",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-48-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-49-pm-2",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.49 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-49-pm-2.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-49-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-49-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-49-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.49 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-49-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-50-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-49-pm-2",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-50-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.50 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-50-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-50-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-49-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-50-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.50 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-50-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-51-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-50-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-51-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.51 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-51-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-51-pm-2",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-50-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-51-pm-2",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.51 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-51-pm-2.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-51-pm-3",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-51-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-51-pm-3",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.51 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-51-pm-3.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-51-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-51-pm-2",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-51-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.51 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-51-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-52-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-51-pm-3",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-52-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.52 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-52-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-52-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-51-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-52-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.52 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-52-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-53-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-52-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-53-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.53 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-53-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-53-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-52-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-53-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.53 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-53-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-54-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-53-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-54-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.54 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-54-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-54-pm-2",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-53-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-54-pm-2",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.54 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-54-pm-2.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-54-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-54-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-54-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.54 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-54-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-55-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-54-pm-2",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-55-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.55 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-55-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-55-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-54-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-55-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.55 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-55-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-56-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-55-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-56-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.56 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-56-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-56-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-55-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-56-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.56 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-56-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-57-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-56-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-57-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.57 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-57-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-59-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-56-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-13-59-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.13.59 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-13-59-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-00-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-57-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-00-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.00 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-00-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-00-pm-2",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-13-59-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-00-pm-2",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.00 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-00-pm-2.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-00-pm-3",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-00-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-00-pm-3",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.00 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-00-pm-3.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-00-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-00-pm-2",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-00-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.00 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-00-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-01-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-00-pm-3",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-01-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.01 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-01-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-01-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-00-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-01-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.01 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-01-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-03-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-01-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-03-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.03 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-03-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-03-pm-2",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-01-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-03-pm-2",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.03 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-03-pm-2.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-03-pm-3",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-03-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-03-pm-3",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.03 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-03-pm-3.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-03-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-03-pm-2",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-03-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.03 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-03-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-04-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-03-pm-3",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-04-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.04 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-04-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-04-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-03-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-04-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.04 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-04-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-05-pm-1",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-04-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-05-pm-1",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.05 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-05-pm-1.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-05-pm-2",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-04-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-05-pm-2",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.05 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-05-pm-2.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-05-pm-3",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-05-pm-1",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-05-pm-3",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.05 PM ",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-05-pm-3.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-05-pm",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-05-pm-2",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-image-2026-09-12-at-3-14-05-pm",
+    "title": "WhatsApp Image 2026 09 12 at 3.14.05 PM",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/whatsapp-image-2026-09-12-at-3-14-05-pm.jpeg",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "work-table",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-05-pm-3",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  },
+  {
+    "id": "work-table",
+    "title": "WORK TABLE",
+    "desc": "360 view - drag to look around • click hotspot to teleport",
+    "image": "panoramas/work-table.png",
+    "hotspots": [
+      {
+        "yaw": 30,
+        "pitch": 0,
+        "target": "arduni-uno",
+        "label": "Next"
+      },
+      {
+        "yaw": -30,
+        "pitch": 0,
+        "target": "whatsapp-image-2026-09-12-at-3-14-05-pm",
+        "label": "Prev"
+      },
+      {
+        "yaw": 0,
+        "pitch": -10,
+        "target": "lab-main",
+        "label": "Main Hall"
+      }
+    ]
+  }
+]

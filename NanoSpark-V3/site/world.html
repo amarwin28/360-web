@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nano Spark — 360 Lab Explorer</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#090909;font-family:Inter,Arial,sans-serif}#app{position:relative;width:100%;height:100%;touch-action:none;user-select:none}canvas{display:block;width:100%;height:100%}.ui{position:absolute;inset:0;pointer-events:none}.top{position:absolute;top:16px;left:16px;right:16px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.badge{pointer-events:auto;background:rgba(8,8,8,.78);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.16);color:#fff;border-radius:14px;padding:10px 14px}.badge b{color:#ffd21a}.hint{font-size:12px;color:#ddd}.controls{position:absolute;right:16px;bottom:16px;display:flex;gap:8px;pointer-events:auto}.btn{border:1px solid rgba(255,255,255,.2);background:rgba(8,8,8,.8);color:#fff;border-radius:12px;padding:10px 13px;cursor:pointer;font-weight:700}.btn:hover{background:#161616}.zones{position:absolute;left:16px;bottom:16px;display:flex;gap:7px;max-width:70%;overflow:auto;pointer-events:auto;padding-bottom:2px}.zone{white-space:nowrap;border:1px solid rgba(255,255,255,.2);background:rgba(8,8,8,.78);color:#fff;border-radius:999px;padding:9px 12px;cursor:pointer}.zone.active{background:#ffd21a;color:#080808;border-color:#ffd21a}.center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);pointer-events:none;text-align:center;color:#fff;opacity:.9;text-shadow:0 2px 10px #000}.center strong{display:block;font-size:clamp(18px,3vw,34px)}.center span{font-size:12px}.loading{position:absolute;inset:0;display:grid;place-items:center;background:#090909;color:#fff;z-index:5;transition:opacity .4s}.loading.hide{opacity:0;pointer-events:none}.loadbox{padding:18px 22px;border:1px solid rgba(255,255,255,.15);border-radius:16px;background:rgba(0,0,0,.72);text-align:center}.bar{width:220px;height:4px;background:#333;border-radius:9px;overflow:hidden;margin-top:10px}.bar i{display:block;height:100%;width:35%;background:#ffd21a;animation:load 1.2s infinite ease-in-out}@keyframes load{0%{transform:translateX(-130%)}100%{transform:translateX(700%)}}@media(max-width:700px){.hint{display:none}.zones{max-width:calc(100% - 32px);bottom:70px}.controls{left:16px;right:16px;justify-content:flex-end}.top{top:10px;left:10px;right:10px}.badge{padding:8px 11px}}
+</style>
+</head>
+<body>
+<div id="app">
+ <div class="loading" id="loading"><div class="loadbox"><b>ENTERING THE NANO SPARK LAB</b><div class="bar"><i></i></div><small>Loading the immersive room…</small></div></div>
+ <div class="ui">
+  <div class="top"><div class="badge"><b>NANO SPARK</b> · 360° LAB EXPLORER</div><div class="badge hint">Drag / swipe to look around · Wheel / pinch to zoom</div></div>
+  <div class="center"><strong id="roomTitle">Main Lab</strong><span id="roomHint">Explore the room in every direction</span></div>
+  <div class="zones" id="zones"></div>
+  <div class="controls"><button class="btn" id="auto">⟳ Auto</button><button class="btn" id="reset">↺ Reset</button><button class="btn" id="full">⛶ Fullscreen</button></div>
+ </div>
+</div>
+<script type="module">
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
+
+const app=document.getElementById('app');
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0x090909);
+const camera=new THREE.PerspectiveCamera(72,1,.05,100);
+camera.position.set(0,1.55,0);
+const renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance'});
+renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,1.75));
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+app.prepend(renderer.domElement);
+
+const loader=new THREE.TextureLoader();
+const files=[
+ ['assets/inside-view-lab.png','Main Lab'],
+ ['assets/electronicszone.png','Electronics & Maker'],
+ ['assets/robotics-zone.png','Robotics'],
+ ['assets/coding-zone.png','Coding'],
+ ['assets/iot-zone.png','IoT'],
+ ['assets/innovation-and-protytping-zone.png','Innovation & Prototyping'],
+ ['assets/safety-equipemetnst.png','Safety']
+];
+const radius=11, height=5.7;
+let yaw=0,pitch=0,fov=72,dragging=false,lastX=0,lastY=0,auto=true;
+const panels=[];
+
+function addPanel(src,title,index){
+ const tex=loader.load(src,()=>{if(panels.length===files.length)document.getElementById('loading').classList.add('hide')});
+ tex.colorSpace=THREE.SRGBColorSpace;
+ tex.anisotropy=Math.min(renderer.capabilities.getMaxAnisotropy(),4);
+ const geo=new THREE.PlaneGeometry(7.8,4.9);
+ const mat=new THREE.MeshBasicMaterial({map:tex,side:THREE.DoubleSide});
+ const mesh=new THREE.Mesh(geo,mat);
+ const angle=index/files.length*Math.PI*2;
+ mesh.position.set(Math.sin(angle)*radius,1.8,Math.cos(angle)*radius);
+ mesh.rotation.y=angle+Math.PI;
+ mesh.userData={title,index};
+ scene.add(mesh);panels.push(mesh);
+}
+files.forEach((f,i)=>addPanel(f[0],f[1],i));
+
+// floor and ceiling give the image panels a convincing room boundary.
+const floor=new THREE.Mesh(new THREE.CircleGeometry(12,96),new THREE.MeshBasicMaterial({color:0x111111}));
+floor.rotation.x=-Math.PI/2;floor.position.y=-1.05;scene.add(floor);
+const ceiling=new THREE.Mesh(new THREE.CircleGeometry(12,96),new THREE.MeshBasicMaterial({color:0x0c0c0c,side:THREE.DoubleSide}));
+ceiling.rotation.x=Math.PI/2;ceiling.position.y=4.65;scene.add(ceiling);
+
+// central floor marker
+const ring=new THREE.Mesh(new THREE.RingGeometry(1.5,1.56,64),new THREE.MeshBasicMaterial({color:0xffd21a,transparent:true,opacity:.8,side:THREE.DoubleSide}));
+ring.rotation.x=-Math.PI/2;ring.position.y=-1.03;scene.add(ring);
+
+const zones=document.getElementById('zones');
+files.slice(0).forEach((f,i)=>{
+ const b=document.createElement('button');b.className='zone'+(i===0?' active':'');b.textContent=f[1];b.onclick=()=>focus(i);zones.appendChild(b);
+});
+function focus(i){
+ const angle=i/files.length*Math.PI*2;
+ const target=angle+Math.PI;
+ const start=yaw,end=target;
+ let delta=((end-start+Math.PI)%(Math.PI*2))-Math.PI;
+ const t0=performance.now(),dur=650;
+ auto=false;document.getElementById('auto').textContent='⟳ Auto';
+ function step(now){const p=Math.min(1,(now-t0)/dur),e=1-Math.pow(1-p,3);yaw=start+delta*e;if(p<1)requestAnimationFrame(step)}requestAnimationFrame(step);
+ document.getElementById('roomTitle').textContent=f[1];
+ [...zones.children].forEach((b,n)=>b.classList.toggle('active',n===i));
+}
+
+function resize(){const w=app.clientWidth,h=app.clientHeight;if(!w||!h)return;camera.aspect=w/h;camera.fov=fov;camera.updateProjectionMatrix();renderer.setSize(w,h,false)}
+new ResizeObserver(resize).observe(app);window.addEventListener('resize',resize);resize();
+
+function down(e){if(e.target.closest('.ui'))return;dragging=true;auto=false;lastX=e.clientX;lastY=e.clientY;document.getElementById('auto').classList.remove('active')}
+function move(e){if(!dragging)return;const dx=e.clientX-lastX,dy=e.clientY-lastY;lastX=e.clientX;lastY=e.clientY;yaw-=dx*.0042;pitch-=dy*.003;pitch=THREE.MathUtils.clamp(pitch,-1.15,1.15)}
+function up(){dragging=false}
+renderer.domElement.addEventListener('pointerdown',down);window.addEventListener('pointermove',move);window.addEventListener('pointerup',up);
+renderer.domElement.addEventListener('wheel',e=>{e.preventDefault();fov=THREE.MathUtils.clamp(fov+e.deltaY*.035,45,90);camera.fov=fov;camera.updateProjectionMatrix()},{passive:false});
+let pinch=0;
+renderer.domElement.addEventListener('touchstart',e=>{if(e.touches.length===2){pinch=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY)}} ,{passive:true});
+renderer.domElement.addEventListener('touchmove',e=>{if(e.touches.length===2){const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);if(pinch){fov=THREE.MathUtils.clamp(fov+(pinch-d)*.06,45,90);camera.fov=fov;camera.updateProjectionMatrix()}pinch=d}},{passive:true});
+renderer.domElement.addEventListener('touchend',()=>pinch=0);
+
+document.getElementById('auto').onclick=()=>{auto=!auto;document.getElementById('auto').classList.toggle('active',auto)};
+document.getElementById('reset').onclick=()=>{yaw=0;pitch=0;fov=72;camera.fov=fov;camera.updateProjectionMatrix();auto=true;document.getElementById('auto').classList.add('active');focus(0)};
+document.getElementById('full').onclick=async()=>{try{if(!document.fullscreenElement)await app.requestFullscreen();else await document.exitFullscreen()}catch(e){console.warn(e)}};
+
+document.getElementById('auto').classList.add('active');
+function animate(){requestAnimationFrame(animate);if(auto&&!dragging)yaw+=.0008;const dir=new THREE.Vector3(Math.sin(yaw)*Math.cos(pitch),Math.sin(pitch),Math.cos(yaw)*Math.cos(pitch));camera.lookAt(camera.position.clone().add(dir));ring.rotation.z+=.002;renderer.render(scene,camera)}
+animate();
+setTimeout(()=>document.getElementById('loading').classList.add('hide'),2200);
+</script>
+</body></html>
